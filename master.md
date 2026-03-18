@@ -386,7 +386,7 @@ The project follows a modular approach to bridge high-current hardware with low-
 * **Voltage Drop Awareness:** Noticed that the motor receives slightly less than the input voltage due to the internal resistance of the L298N's Darlington transistors.
 * **Real-time Monitoring:** The Serial Monitor successfully synced physical motor movement with code execution, providing a debugging trail for speed transitions.
 
-![](https://github.com/vivek7768/marvel-level-0-images/blob/bb4e0a1e5e8e1e668cdc09dd9f93684171e3813e/DC.mp4)
+https://github.com/user-attachments/assets/e9c8f861-f775-4dec-9601-01f39c2930bd
 
 ---
 
