@@ -333,9 +333,11 @@ Create a Tinkercad account and familiarize yourself with the application.
 * **Ultrasonic Sensor (HC-SR04)**
 * **Servo Motor**
 
-### Circuit Diagram
+### Circuit Image
+![](https://github.com/vivek7768/marvel-level-0-images/blob/7b0b424e23e611b1bac14c24e5c48a646c320dfe/tinker1.png)
 
 ### Circuit Connections
+![](https://github.com/vivek7768/marvel-level-0-images/blob/7b0b424e23e611b1bac14c24e5c48a646c320dfe/tinker2.png)
 
 ---
 
