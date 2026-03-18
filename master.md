@@ -610,7 +610,7 @@ In a standard quadcopter layout, two motors rotate clockwise (CW) and two rotate
 | **Roll Right** | Left motors (1 & 4) increase; Right motors (2 & 3) decrease. | Drone tilts to the right. |
 | **Yaw Clockwise** | CCW motors (1 & 3) increase; CW motors (2 & 4) decrease. | Torque imbalance rotates the frame. |
 
-
+![](https://github.com/vivek7768/marvel-level-0-images/blob/b87ce0d3b83311ab834df860a89cccc908bb13c4/drone.jpeg)
 
 ### 2.2 Mechanical Coordination
 To maintain a specific path in the simulator, the pilot must coordinate these mixing behaviors. For example, a **Coordinated Turn** requires a simultaneous input of both **Roll** and **Yaw** in the same direction. This ensures the drone "carves" through the air rather than sliding laterally (drifting) while maintaining the desired heading.
