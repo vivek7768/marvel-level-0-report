@@ -614,3 +614,58 @@ In a standard quadcopter layout, two motors rotate clockwise (CW) and two rotate
 
 ### 2.2 Mechanical Coordination
 To maintain a specific path in the simulator, the pilot must coordinate these mixing behaviors. For example, a **Coordinated Turn** requires a simultaneous input of both **Roll** and **Yaw** in the same direction. This ensures the drone "carves" through the air rather than sliding laterally (drifting) while maintaining the desired heading.
+---
+
+# 3. Flying the Airblock Drone
+
+## Objective: To learn about and operate the Airblock Drone available in the lab.
+
+## 1. Operation & Control
+* **Application:** The drone is operated via the **Makeblock App**, which supports both manual remote control and block-based graphical programming (similar to Scratch).
+* **Connectivity:** Bluetooth-enabled for real-time control and coding.
+
+---
+
+## 2. Propulsion System
+* **Motor Type:** **6 x Coreless DC Motors**. These provide the necessary RPM for a modular hexacopter while remaining lightweight.
+* **Propellers:** * Plastic blades housed within protective hexagonal frames.
+    * Configuration includes both **Clockwise (CW)** and **Counter-Clockwise (CCW)** propellers to maintain flight stability.
+    * **Safety:** The enclosed design makes the propellers safe for indoor use and beginner pilots.
+![](https://github.com/vivek7768/marvel-level-0-images/blob/66a6c22755ba8fab45cee071e596e59554e9436a/airblock2.webp)
+---
+
+## 3. Physical Construction & Modular Design
+* **Material:** **EPP (Expanded Polypropylene) Foam**. This is a closed-cell foam known for being:
+    * **Lightweight:** Crucial for flight efficiency.
+    * **Flexible & Durable:** Absorbs impacts without breaking.
+    * **Solid:** Maintains structural integrity across different forms.
+* **Assembly:** Features **Magnetic Connectors** for tool-free, modular transformation. This magnetized system allows for rapid assembly and disassembly.
+
+### Modular Configurations
+The Airblock's modularity allows it to take several specialized shapes:
+* **Drone:** A standard hexacopter configuration for aerial flight.
+* **Hovercraft:** Utilizes the foam's buoyancy and motor thrust to glide over flat ground or water.
+* **Triangle/Spider:** Creative DIY configurations that demonstrate the versatility of the magnetized blocks for land-based movement or unique flight physics.
+![](https://github.com/vivek7768/marvel-level-0-images/blob/9c1199c53326a942adf2ea37ac8bdbe76ecc7c41/airblock1.webp)
+---
+
+## 4. Battery & Power
+* **Type:** Lithium Polymer (**LiPo**) battery.
+* **Voltage:** 7.4V.
+* **Capacity:** Typically **700mAh**.
+* **Performance:** * **Flight Time:** Approximately 6 minutes.
+    * **Hovercraft/Land Time:** Approximately 16 minutes.
+    * **Charging Time:** 60–90 minutes via USB.
+
+---
+
+## 5. Onboard Sensors
+* **Ultrasonic Sensor:** For altitude hold and detecting distance from the ground.
+* **Barometer:** Monitors air pressure to assist in height stabilization.
+* **6-axis Gyroscope:** Ensures orientation and balance across all modular forms.
+
+---
+
+
+
+
