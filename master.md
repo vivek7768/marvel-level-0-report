@@ -465,6 +465,7 @@ To design and assemble a **555 IC Astable Multivibrator** on a breadboard that p
 * **Steady 5V Pulse:** A reliable 5V output signal generated from the RPS (Regulated Power Supply).
 
 ---
+![](https://github.com/vivek7768/marvel-level-0-images/blob/0e3b9f2fa69be6ad8b20838fba21581042d81a5a/555.jpeg)
 
 ## 3. Learnings
 * **Breadboard Proficiency:** Learned how to translate a schematic into a physical circuit layout.
