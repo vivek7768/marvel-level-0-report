@@ -378,8 +378,6 @@ The project follows a modular approach to bridge high-current hardware with low-
     * **Full Speed:** 255/255 (100% duty cycle)
 3.  **Signal Isolation:** The L298N acts as an intermediary, taking the 5V logic signals from the Arduino and switching a separate power source to the motor, protecting the Arduino from high current draws.
 
-
-
 ---
 
 ### Outcomes
@@ -387,6 +385,8 @@ The project follows a modular approach to bridge high-current hardware with low-
 * **Static Friction Observation:** Identified that the motor requires a minimum PWM threshold (starting at 80) to overcome "stiction" (static friction) and begin spinning.
 * **Voltage Drop Awareness:** Noticed that the motor receives slightly less than the input voltage due to the internal resistance of the L298N's Darlington transistors.
 * **Real-time Monitoring:** The Serial Monitor successfully synced physical motor movement with code execution, providing a debugging trail for speed transitions.
+
+![](https://github.com/vivek7768/marvel-level-0-images/blob/bb4e0a1e5e8e1e668cdc09dd9f93684171e3813e/DC.mp4)
 
 ---
 
