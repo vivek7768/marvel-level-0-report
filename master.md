@@ -39,7 +39,6 @@ An **API (Application Programming Interface)** is like a digital waiter.
 * **The API:** It takes your request to the kitchen (the server or database).
 * **The Response:** It brings the data back to your table
 
-
 ---
 
 # Project Summary: Country Finder
@@ -55,7 +54,7 @@ An **API (Application Programming Interface)** is like a digital waiter.
 * **CSS Troubleshooting:** I learned the importance of `max-width` and `aspect-ratio` when dealing with external images that might otherwise break a layout.
 
 ![Country Finder](https://github.com/vivek7768/marvel-level-0-images/blob/ca4005a98e94664c4442083566083397f549adc4/api.png)
-
+---
 # Task 4: Command Line on Ubuntu
 
 **Objective:** Get familiar with the command line on Ubuntu by completing given tasks.
@@ -74,7 +73,28 @@ An **API (Application Programming Interface)** is like a digital waiter.
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/bc02d9863ebf1341262492ebd6f9201cdcac011a/ubuntu1.png)
 ---
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/bc02d9863ebf1341262492ebd6f9201cdcac011a/ubuntu2.png)
+---
+# Task 6 : The Matrix Puzzle — Decode with NumPy & Reveal the Image
 
+### **Objective**
+Get hands-on with NumPy and Matplotlib by solving a visual puzzle. 
+
+### **Methodology**
+1.  **Loading**: Used `np.load()` to import the `encoded_array.npy` binary data.
+2.  **Reshaping**: Converted the initial shape $(200, 50)$ into a square $(100, 100)$ grid to align the pixels based on the total element count ($10,000$).
+3.  **Transposing**: Swapped the rows and columns using the `.T` attribute to fix the "sideways" orientation.
+4.  **Flipping**: Applied `np.flip(matrix, axis=0)` to correct the vertical orientation (vertical mirror) to ensure the logo was upright.
+5.  **Visualization**: Utilized `plt.imshow()` with the `magma` colormap to render the numerical values as a clear visual plot.
+
+---
+
+### **Key Learnings**
+
+* **Handling Binary Data**: I learned that `.npy` files are specialized binary formats for NumPy and cannot be read as standard text; they require a Python interpreter to "translate" the numbers.
+* **Spatial Reasoning with Arrays**: I developed a better understanding of how a flat sequence of numbers maps to a 2D coordinate system (rows and columns).
+* **Coordinate Systems in Images**: I discovered that computer images often have different origin points (top-left vs. bottom-left), which is why functions like `np.flip` are essential for correcting "upside-down" data.
+
+---
 
 # Task 7: Create a Portfolio Webpage
 
