@@ -448,6 +448,7 @@ Upon completion of this project, the following competencies were achieved:
 * **Tip Maintenance:** I discovered that a "tinned" (silver-looking) iron tip transfers heat significantly better than a dark, oxidized tip.
 * **Mechanical Stability:** Bending the leads at a 45-degree angle on the bottom of the perf board is essential for keeping components flush against the board while flipping it over to solder.
 
+![](https://github.com/vivek7768/marvel-level-0-images/blob/3017f2183a74e5f7476d2392ffc69719284ee7ae/Solder.jpeg)
 ---
 
 # Task 13: Design a 555 Astable Multivibrator
