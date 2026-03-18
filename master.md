@@ -71,6 +71,9 @@ An **API (Application Programming Interface)** is like a digital waiter.
 * **Windows Integration**: Utilized `explorer.exe .` to bridge the gap between the Linux kernel and Windows File Explorer.
 * **CLI Proficiency**: Developed a foundational understanding of the command-line interface, moving away from reliance on a Graphical User Interface (GUI).
 
+![](https://github.com/vivek7768/marvel-level-0-images/blob/bc02d9863ebf1341262492ebd6f9201cdcac011a/ubuntu1.png)
+![](https://github.com/vivek7768/marvel-level-0-images/blob/bc02d9863ebf1341262492ebd6f9201cdcac011a/ubuntu2.png)
+
 
 # Task 7: Create a Portfolio Webpage
 
