@@ -72,6 +72,7 @@ An **API (Application Programming Interface)** is like a digital waiter.
 * **CLI Proficiency**: Developed a foundational understanding of the command-line interface, moving away from reliance on a Graphical User Interface (GUI).
 
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/bc02d9863ebf1341262492ebd6f9201cdcac011a/ubuntu1.png)
+---
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/bc02d9863ebf1341262492ebd6f9201cdcac011a/ubuntu2.png)
 
 
@@ -88,6 +89,10 @@ An **API (Application Programming Interface)** is like a digital waiter.
 * **Static Site Optimization:** Understood the benefit of building a lightweight, static site without unnecessary JavaScript to ensure near-instant load times on all networks.
 * **Front-End Organization:** Gained experience in separating concerns by keeping structural content in `index.html` and design logic in `style.css`, making the codebase easier to maintain and update.
 * **Professional Branding:** Practiced translating complex engineering projects (like LiFi and Radar systems) into concise, high-impact descriptions suitable for recruiters or project leads.
+
+![](https://github.com/vivek7768/marvel-level-0-images/blob/6088c77c634a3763399342c45ac1bb7638a7c36d/portfolio1.png)
+---
+![](https://github.com/vivek7768/marvel-level-0-images/blob/6088c77c634a3763399342c45ac1bb7638a7c36d/portfolio2.png)
 
 ---
 
