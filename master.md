@@ -417,6 +417,8 @@ To design and deploy a standalone web server using the ESP32 to control GPIO pin
 * **Stability:** Implemented a 2-second timeout to handle disconnected clients effectively.
 * **Visuals:** The UI dynamically reflects the "ON/OFF" state using CSS classes.
 
+https://github.com/user-attachments/assets/e77327a1-e4dc-4bda-bc8a-cc7ec44b09a3
+
 ### 4. Learning
 * **Embedded Networking:** Gained hands-on experience with the TCP/IP stack on microcontrollers.
 * **Request Handling:** Learned to parse raw HTTP streams into actionable logic.
