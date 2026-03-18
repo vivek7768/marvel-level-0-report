@@ -516,7 +516,7 @@ To design and assemble a **555 IC Astable Multivibrator** on a breadboard that p
 ---
 # Task 14: Active Participation
 
-### OBjective
+### Objective
 To participate in a technical event and apply problem-solving skills using AI tools.
 
 ### Reverse Prompt Engineering | Impetus 26.0 (CTRL + Z)
