@@ -418,6 +418,7 @@ The project follows a modular approach to bridge high-current hardware with low-
 3.  **Signal Isolation:** The L298N acts as an intermediary, taking the 5V logic signals from the Arduino and switching a separate power source to the motor, protecting the Arduino from high current draws.
 
 ---
+![](https://github.com/vivek7768/marvel-level-0-images/blob/cfcff8e9a6a8bb3c4a5621cab6a37b26c2fd1cc6/dc_circuit.png)
 
 ### Outcomes
 * **Variable Speed Execution:** Successfully demonstrated four distinct motor states (Slow, Medium, Full, and Stop) in a continuous loop.
