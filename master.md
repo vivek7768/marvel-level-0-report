@@ -474,7 +474,18 @@ To design and assemble a **555 IC Astable Multivibrator** on a breadboard that p
 * **Real-world Testing:** Observed how physical component tolerances (resistor/capacitor variations) affect the theoretical 60% goal.
 
 ---
+# Task 14: Active Participation
 
+### OBjective
+To participate in a technical event and apply problem-solving skills using AI tools.
+
+### Reverse Prompt Engineering | Impetus 26.0 (CTRL + Z)
+Participated in a specialized challenge focused on the mechanics of Large Language Models. 
+
+* **Objective:** Analyzed complex AI-generated outputs to reconstruct the exact prompts required to replicate them.
+* **Key Learnings:** Gained a deep understanding of how prompt architecture, constraints, and stylistic cues influence model behavior.
+* **Outcome:** Improved practical skills in prompt optimization and black-box model analysis.
+---
 # Task 15: Introduction to VR
 
 Virtual Reality is a technology that uses computer-generated images which are displayed directly through a head-mounted display on our eyes, giving us a full immersive experience. The user can give inputs through controllers that fit in both hands.
