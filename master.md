@@ -5,6 +5,7 @@
 * **Settings & SOPs:** Master bed temp, infill density, and safety protocols.
 * **Execution:** Slice a community STL and initiate a successful print.
 
+![](https://github.com/vivek7768/marvel-level-0-images/blob/e1bd9e69c43ec84798bc9755176dca100a506ec3/ditto.jpeg)
 ---
 
 ### **PLA 3D Printing: Core Guide & Troubleshooting**
@@ -74,6 +75,23 @@ An **API (Application Programming Interface)** is like a digital waiter.
 ---
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/bc02d9863ebf1341262492ebd6f9201cdcac011a/ubuntu2.png)
 ---
+
+# Task 5 : Build Your Own Brain -Linear Regression from Scratch
+
+### **Objective**
+Dive into the core of machine learning by implementing Linear Regression from scratch using , and compare its performance with the scikit-learn implementation. Use the California Housing dataset to evaluate your model on real-world data.
+
+### **Learnings**
+* **The Basic Equation:** I learned that at its core, predicting a value is just a simple line equation: $y = mx + b$.
+* **Weight and Bias:** I learned how to initialize a weight ($m$) and a bias ($b$) and update them as the "brain" learns.
+* **Manual Gradient Descent:** I learned that a model "learns" by checking its error and using calculus to adjust its parameters until the error is at its lowest possible point.
+* **Feature Scaling:** I discovered that changing data to center around 0 (Standardization) is essential. It prevents the math from "breaking" and helps the model find the best fit much faster.
+* **Model Comparison:** By running my custom code alongside Scikit-Learn, I proved that my manual "scratch" logic produces the exact same mathematical results as professional tools.
+* **Performance Metrics:** I learned how to use $R^2$ to measure success. In this dataset, I found that income explains roughly 47% of the house price variance.
+* **Visualization:** I learned how to plot a "Line of Best Fit" to visually confirm that the model has successfully captured the trend of the data.
+
+![](https://github.com/vivek7768/marvel-level-0-images/blob/e1bd9e69c43ec84798bc9755176dca100a506ec3/linear_regression.png)
+---
 # Task 6 : The Matrix Puzzle — Decode with NumPy & Reveal the Image
 
 ### **Objective**
@@ -86,6 +104,7 @@ Get hands-on with NumPy and Matplotlib by solving a visual puzzle.
 4.  **Flipping**: Applied `np.flip(matrix, axis=0)` to correct the vertical orientation (vertical mirror) to ensure the logo was upright.
 5.  **Visualization**: Utilized `plt.imshow()` with the `magma` colormap to render the numerical values as a clear visual plot.
 
+![](https://github.com/vivek7768/marvel-level-0-images/blob/e1bd9e69c43ec84798bc9755176dca100a506ec3/matrix.png)
 ---
 
 ### **Key Learnings**
