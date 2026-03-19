@@ -1,6 +1,6 @@
 # TASK 1: 3D Printing
 
-### **Objective**
+## **Objective**
 * **Fundamentals:** Understand FDM printer mechanics, STL file structure, and slicing (Cura/Creality).
 * **Settings & SOPs:** Master bed temp, infill density, and safety protocols.
 * **Execution:** Slice a community STL and initiate a successful print.
@@ -34,15 +34,16 @@
 
 # Task 2: API
 
+## Objective
+Learn what an API is and how it works. Using any API of your choice, build a user interface.
+
 An **API (Application Programming Interface)** is like a digital waiter. 
 
 * **The Request:** You (the client) ask for something (e.g., "Tell me about India").
 * **The API:** It takes your request to the kitchen (the server or database).
 * **The Response:** It brings the data back to your table
-
 ---
-
-# Project Summary: Country Finder
+## Project Summary: Country Finder
 
 ### Key Features Implemented:
 * **Dynamic Fetching:** It doesn't have a list of countries saved; it talks to a live server every time you search.
@@ -74,7 +75,8 @@ Familiarize yourself with GitHub integrated workflows such as GitHub Actions, Is
 ---
 # Task 4: Command Line on Ubuntu
 
-**Objective:** Get familiar with the command line on Ubuntu by completing given tasks.
+## **Objective**
+Get familiar with the command line on Ubuntu by completing given tasks.
 
 ### Learning Summary
 * **Environment Setup**: Successfully installed WSL2 and initialized an Ubuntu distribution.
@@ -94,7 +96,7 @@ Familiarize yourself with GitHub integrated workflows such as GitHub Actions, Is
 
 # Task 5 : Build Your Own Brain -Linear Regression from Scratch
 
-### **Objective**
+## **Objective**
 Dive into the core of machine learning by implementing Linear Regression from scratch using , and compare its performance with the scikit-learn implementation. Use the California Housing dataset to evaluate your model on real-world data.
 
 ### **Learnings**
@@ -110,7 +112,7 @@ Dive into the core of machine learning by implementing Linear Regression from sc
 ---
 # Task 6 : The Matrix Puzzle — Decode with NumPy & Reveal the Image
 
-### **Objective**
+## **Objective**
 Get hands-on with NumPy and Matplotlib by solving a visual puzzle. 
 
 ### **Methodology**
@@ -133,13 +135,16 @@ Get hands-on with NumPy and Matplotlib by solving a visual puzzle.
 
 # Task 7: Create a Portfolio Webpage
 
-## 1. Technical Outcomes
+## **Objective**
+Create a website to showcase your portfolio, including information about yourself, interests, projects, and social media profiles.
+
+### Technical Outcomes
 * **Semantic HTML5 Architecture:** Developed a structured document using semantic tags (`<header>`, `<main>`, `<section>`, `<nav>`) to ensure accessibility and better SEO indexing.
 * **CSS3 Visual Identity:** Implemented a high-contrast aesthetic using a dark-mode palette (`#0d1117`) with deep red accents (`#990000`) to reflect a professional technical brand.
 * **Responsive Layout Design:** Leveraged **CSS Flexbox** and **Grid** to create a layout that adapts to different screen sizes, ensuring the project cards and contact grid remain readable on both mobile and desktop.
 * **Navigation Logic:** Integrated internal page linking using `id` attributes and `scroll-behavior: smooth`, providing a seamless user experience (UX) without page reloads.
 
-## 2. Core Learnings
+### Core Learnings
 * **UI/UX Principles:** Learned how to use visual hierarchy (font weights, red accent borders, and letter spacing) to guide the reader's eye toward critical information like project titles and contact details.
 * **Static Site Optimization:** Understood the benefit of building a lightweight, static site without unnecessary JavaScript to ensure near-instant load times on all networks.
 * **Front-End Organization:** Gained experience in separating concerns by keeping structural content in `index.html` and design logic in `style.css`, making the codebase easier to maintain and update.
@@ -380,7 +385,6 @@ Create a Tinkercad account and familiarize yourself with the application.
 
 ---
 
-
 ## OUTCOMES
 
 ### Components Used:
@@ -395,17 +399,12 @@ Create a Tinkercad account and familiarize yourself with the application.
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/7b0b424e23e611b1bac14c24e5c48a646c320dfe/tinker2.png)
 
 ---
-
 ## WORKING PRINCIPLE OF THE ULTRASONIC SENSOR
 
 The HC-SR04 sensor operates on the principle of **Echolocation**, similar to how bats and dolphins navigate.
-
 ---
-
 ## WORKING PRINCIPLE OF THE SERVO MOTOR
-
 Unlike standard DC motors that spin continuously, a servo motor is designed for **precise angular positioning**.
-
 ---
 
 ## WHAT I LEARNT
@@ -418,7 +417,7 @@ Unlike standard DC motors that spin continuously, a servo motor is designed for 
 
 # Task 10: Speed Control of DC Motor
 
-### Objective
+## Objective
 To interface a DC motor with an Arduino UNO using the **L298N H-Bridge motor driver** to achieve variable speed control through Pulse Width Modulation (PWM) and understand the logic required for motor activation and braking.
 
 ---
@@ -456,10 +455,10 @@ https://github.com/user-attachments/assets/e9c8f861-f775-4dec-9601-01f39c2930bd
 
 # Task 11: LED Toggle Using ESP32
 
-### 1. Objective
+## Objective
 To design and deploy a standalone web server using the ESP32 to control GPIO pins via a browser-based interface over a local Wi-Fi network.
 
-### 2. Methodology
+### Methodology
 
 * **Hardware:** ESP32 board, two LEDs connected to GPIO 26 and 27.
 * **Network:** Utilized `WiFi.h` to connect the ESP32 to a local Access Point.
@@ -467,7 +466,7 @@ To design and deploy a standalone web server using the ESP32 to control GPIO pin
 * **Logic:** The code parses the HTTP header using `header.indexOf()` to detect specific URL paths and toggles the corresponding `digitalWrite()` states.
 * **UI:** Served a custom HTML/CSS page to the client to provide interactive buttons.
 
-### 3. Outcomes
+### Outcomes
 * **Connectivity:** Successfully established a stable Wi-Fi connection and assigned a local IP.
 * **Web Control:** Remote devices on the same network successfully toggled LEDs.
 * **Stability:** Implemented a 2-second timeout to handle disconnected clients effectively.
@@ -475,7 +474,7 @@ To design and deploy a standalone web server using the ESP32 to control GPIO pin
 
 https://github.com/user-attachments/assets/e77327a1-e4dc-4bda-bc8a-cc7ec44b09a3
 
-### 4. Learning
+### Learning
 * **Embedded Networking:** Gained hands-on experience with the TCP/IP stack on microcontrollers.
 * **Request Handling:** Learned to parse raw HTTP streams into actionable logic.
 * **State Management:** Managed synchronized states between physical hardware and a digital UI.
@@ -484,12 +483,12 @@ https://github.com/user-attachments/assets/e77327a1-e4dc-4bda-bc8a-cc7ec44b09a3
 ---
 # Task 12: Soldering Prerequisites
 
-## 1. Objective
+## Objective
 The primary goal of this project was to transition from temporary breadboard prototyping to permanent circuit assembly. Specifically:
 
 ---
 
-## 2. Learning Outcomes
+## Learning Outcomes
 Upon completion of this project, the following competencies were achieved:
 * **Tool Proficiency:** Demonstrated correct use of the soldering iron, solder wire.
 * **Thermal Management:** Learned to balance heat application—long enough to melt solder into the joint, but quick enough to avoid heat-damaging the LED or lifting the copper pad.
@@ -497,7 +496,7 @@ Upon completion of this project, the following competencies were achieved:
 
 ---
 
-## 3. Key Learnings & Observations
+## Key Learnings & Observations
 
 ### Safety & Best Practices
 * **Fume Awareness:** Using rosin-core solder creates smoke; I learned the importance of working in a well-ventilated area or using a fume extractor.
@@ -509,12 +508,12 @@ Upon completion of this project, the following competencies were achieved:
 
 # Task 13: Design a 555 Astable Multivibrator
 
-## 1. Objective
+## Objective
 To design and assemble a **555 IC Astable Multivibrator** on a breadboard that produces a square wave with a **60% duty cycle**, and to verify the resulting waveform's timing and shape using a **Digital Storage Oscilloscope (DSO)**.
 
 ---
 
-## 2. Outcomes
+## Outcomes
 * **Successful Hardware Build:** A functional pulse-generator circuit assembled on a breadboard.
 * **Signal Visualization:** Real-time observation of the charging/discharging cycle on the DSO.
 * **Accuracy Check:** Confirmation that the high-to-low ratio of the wave matches the 60% design target.
@@ -523,7 +522,7 @@ To design and assemble a **555 IC Astable Multivibrator** on a breadboard that p
 ---
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/0e3b9f2fa69be6ad8b20838fba21581042d81a5a/555.jpeg)
 
-## 3. Learnings
+## Learnings
 * **Breadboard Proficiency:** Learned how to translate a schematic into a physical circuit layout.
 * **DSO Operation:** Mastered how to trigger, scale, and measure pulse width and frequency on an oscilloscope.
 * **Formula Application:** Understood how the ratio of $R_1$ and $R_2$ directly controls the "On" vs "Off" time of the signal.
@@ -548,7 +547,7 @@ Virtual Reality is a technology that uses computer-generated images which are di
 
 ---
 
-## 1. Comparison: VR vs. AR
+## Comparison: VR vs. AR
 
 The following table highlights the fundamental differences between these two transformative technologies:
 
@@ -562,7 +561,7 @@ The following table highlights the fundamental differences between these two tra
 
 ---
 
-## 2. The Technology Stack
+## The Technology Stack
 
 The development of immersive experiences relies on powerful software engines that handle physics, lighting, and real-time rendering:
 
@@ -571,7 +570,7 @@ The development of immersive experiences relies on powerful software engines tha
 
 ---
 
-## 3. The Indian XR Ecosystem
+## The Indian XR Ecosystem
 
 India has successfully transitioned from being a "back-office" for XR to becoming a global hub for high-end industrial and educational solutions.
 
@@ -584,15 +583,16 @@ India has successfully transitioned from being a "back-office" for XR to becomin
 * **Quidich Innovation Labs:** A pioneer in using AR for live sports broadcasting (notably Cricket), overlaying real-time player stats and graphics onto live drone feeds to enhance the viewer experience.
 
 ---
-
-# 1. History of Aviation
+# **Aviation Domain-Specific Tasks**
+---
+## 1. History of Aviation
 
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/3b6c493454aa7a1acd1ba48e7726c46de17ff90b/aviation_flowchart_.png)
 
-# 2. Introduction to Flight Simulators
+## 2. Introduction to Flight Simulators
 
 
-## Section 1: The RadioMaster TX16S MKII Controller
+### Section 1: The RadioMaster TX16S MKII Controller
 
 The **TX16S MKII** is a high-end transmitter that uses the EdgeTX operating system. In a simulator environment, it acts as a high-precision HID (Human Interface Device) to translate physical stick movements into digital commands.
 
@@ -632,17 +632,17 @@ In a standard quadcopter layout, two motors rotate clockwise (CW) and two rotate
 To maintain a specific path in the simulator, the pilot must coordinate these mixing behaviors. For example, a **Coordinated Turn** requires a simultaneous input of both **Roll** and **Yaw** in the same direction. This ensures the drone "carves" through the air rather than sliding laterally (drifting) while maintaining the desired heading.
 ---
 
-# 3. Flying the Airblock Drone
+## 3. Flying the Airblock Drone
 
-## Objective: To learn about and operate the Airblock Drone available in the lab.
+### Objective: To learn about and operate the Airblock Drone available in the lab.
 
-## 1. Operation & Control
+### 1. Operation & Control
 * **Application:** The drone is operated via the **Makeblock App**, which supports both manual remote control and block-based graphical programming (similar to Scratch).
 * **Connectivity:** Bluetooth-enabled for real-time control and coding.
 
 ---
 
-## 2. Propulsion System
+### 2. Propulsion System
 * **Motor Type:** **6 x Coreless DC Motors**. These provide the necessary RPM for a modular hexacopter while remaining lightweight.
 * **Propellers:** * Plastic blades housed within protective hexagonal frames.
     * Configuration includes both **Clockwise (CW)** and **Counter-Clockwise (CCW)** propellers to maintain flight stability.
@@ -650,7 +650,7 @@ To maintain a specific path in the simulator, the pilot must coordinate these mi
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/66a6c22755ba8fab45cee071e596e59554e9436a/airblock2.webp)
 ---
 
-## 3. Physical Construction & Modular Design
+### 3. Physical Construction & Modular Design
 * **Material:** **EPP (Expanded Polypropylene) Foam**. This is a closed-cell foam known for being:
     * **Lightweight:** Crucial for flight efficiency.
     * **Flexible & Durable:** Absorbs impacts without breaking.
