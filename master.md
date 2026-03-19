@@ -5,8 +5,27 @@
 * **Settings & SOPs:** Master bed temp, infill density, and safety protocols.
 * **Execution:** Slice a community STL and initiate a successful print.
 
-![](https://github.com/vivek7768/marvel-level-0-images/blob/e1bd9e69c43ec84798bc9755176dca100a506ec3/ditto.jpeg)
----
+### Types of 3-D printing
+### 1. Fused Deposition Modeling (FDM)
+* **Mechanism:** Melts a thermoplastic filament and extrudes it through a heated nozzle, depositing material layer-by-layer.
+* **Common Materials:** PLA (beginner-friendly), ABS (impact resistant), and PETG (weather resistant).
+* **Best For:** Functional prototypes, household tools, and low-cost hobbyist projects.
+* **Support Structure:** Requires physical "towers" or "lattices" to support overhanging parts, which must be removed manually.
+* **Key Characteristic:** Most affordable and accessible method, though it often has visible layer lines on the final part.
+
+### 2. Stereolithography (SLA)
+* **Mechanism:** Uses a UV laser to selectively cure (harden) liquid photopolymer resin in a vat, building parts upside down.
+* **Common Materials:** Standard resins, "Tough" resins for engineering, and flexible resins.
+* **Best For:** Highly detailed miniatures, jewelry masters, and dental applications.
+* **Post-Processing:** Prints must be washed in Isopropyl Alcohol (IPA) and then cured further under a UV lamp.
+* **Key Characteristic:** Produces extremely smooth surfaces and fine details that are nearly impossible to achieve with FDM.
+
+### 3. Selective Laser Sintering (SLS)
+* **Mechanism:** A high-power laser fuses (sinters) small particles of polymer powder into a solid structure.
+* **Common Materials:** Primarily Nylon (PA11 or PA12) and occasionally flexible TPU powders.
+* **Best For:** Durable end-use parts, complex mechanical assemblies, and interlocking pieces.
+* **Design Freedom:** Since the part is surrounded by powder, no dedicated support structures are needed, allowing for hollow or nested geometries.
+* **Key Characteristic:** Highly efficient for industrial "batch" printing where dozens of parts can be stacked in a single build volume.
 
 ### **PLA 3D Printing: Core Guide & Troubleshooting**
 
@@ -29,7 +48,7 @@
 **Troubleshooting**
 * **Adhesion/Warping:** Level bed manually; clean with IPA; lower bed temp if "Elephant’s Foot" occurs.
 * **Print Quality:** Increase retraction for stringing; reduce fan speed if layers split or are weak.
-
+![](https://github.com/vivek7768/marvel-level-0-images/blob/e1bd9e69c43ec84798bc9755176dca100a506ec3/ditto.jpeg)
 ---
 
 # Task 2: API
