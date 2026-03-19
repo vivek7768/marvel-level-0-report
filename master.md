@@ -56,6 +56,22 @@ An **API (Application Programming Interface)** is like a digital waiter.
 
 ![Country Finder](https://github.com/vivek7768/marvel-level-0-images/blob/ca4005a98e94664c4442083566083397f549adc4/api.png)
 ---
+# Task 3: Working with GitHub
+
+## Objective
+Familiarize yourself with GitHub integrated workflows such as GitHub Actions, Issues, and pull requests
+
+### Key Learnings: Git & GitHub Workflow
+* **Local Environment:** Learned to use **Git Bash** to interact with a local repository via command line rather than a GUI.
+* **The Forking Workflow:** Understood that to contribute to a project I don't own, I must first **Fork** it to my own account to gain "Write" permissions.
+* **Remote Management:** Mastered the use of `git remote add origin` to link a local folder to a specific GitHub URL.
+* **Branching Strategy:** Learned to create isolated **Feature Branches** using `git checkout -b` to keep the `main` branch clean and stable.
+* **The Git Lifecycle:** Practiced the standard cycle of making changes, **Staging** (`git add`), **Committing** (`git commit`), and **Pushing** (`git push`).
+* **Collaborative Tools:** * Used **GitHub Issues** to document bugs.
+    * Opened a **Pull Request (PR)** to propose code changes.
+    * Used **Closing Keywords** (e.g., `Closes #1`) to automate issue management.
+* **CI/CD Awareness:** Observed how **GitHub Actions** automatically runs test scripts to verify code logic before a merge is allowed.
+---
 # Task 4: Command Line on Ubuntu
 
 **Objective:** Get familiar with the command line on Ubuntu by completing given tasks.
