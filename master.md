@@ -165,8 +165,8 @@ Get hands-on with NumPy and Matplotlib by solving a visual puzzle.
 Create a website to showcase your portfolio, including information about yourself, interests, projects, and social media profiles.
 
 ### Technical Outcomes
-* **Semantic HTML5 Architecture:** Developed a structured document using semantic tags (`<header>`, `<main>`, `<section>`, `<nav>`) to ensure accessibility and better SEO indexing.
-* **CSS3 Visual Identity:** Implemented a high-contrast aesthetic using a dark-mode palette (`#0d1117`) with deep red accents (`#990000`) to reflect a professional technical brand.
+* **Semantic HTML Architecture:** Developed a structured document using semantic tags (`<header>`, `<main>`, `<section>`, `<nav>`) to ensure accessibility and better SEO indexing.
+* **CSS Visual Identity:** Implemented a high-contrast aesthetic using a dark-mode palette (`#0d1117`) with deep red accents (`#990000`) to reflect a professional technical brand.
 * **Responsive Layout Design:** Leveraged **CSS Flexbox** and **Grid** to create a layout that adapts to different screen sizes, ensuring the project cards and contact grid remain readable on both mobile and desktop.
 * **Navigation Logic:** Integrated internal page linking using `id` attributes and `scroll-behavior: smooth`, providing a seamless user experience (UX) without page reloads.
 
