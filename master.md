@@ -39,10 +39,10 @@ Learn what an API is and how it works. Using any API of your choice, build a use
 
 An **API (Application Programming Interface)** is like a digital waiter. 
 
-* **The Request:** You (the client) ask for something (e.g., "Tell me about India").
+* **The Request:** You ask for something.
 * **The API:** It takes your request to the kitchen (the server or database).
 * **The Response:** It brings the data back to your table
----
+
 ## Project Summary: Country Finder
 
 ### Key Features Implemented:
@@ -65,7 +65,7 @@ Familiarize yourself with GitHub integrated workflows such as GitHub Actions, Is
 ### Key Learnings: Git & GitHub Workflow
 * **Local Environment:** Learned to use **Git Bash** to interact with a local repository via command line rather than a GUI.
 * **The Forking Workflow:** Understood that to contribute to a project I don't own, I must first **Fork** it to my own account to gain "Write" permissions.
-* **Remote Management:** Mastered the use of `git remote add origin` to link a local folder to a specific GitHub URL.
+* **Remote Management:** Learnt the use of `git remote add origin` to link a local folder to a specific GitHub URL.
 * **Branching Strategy:** Learned to create isolated **Feature Branches** using `git checkout -b` to keep the `main` branch clean and stable.
 * **The Git Lifecycle:** Practiced the standard cycle of making changes, **Staging** (`git add`), **Committing** (`git commit`), and **Pushing** (`git push`).
 * **Collaborative Tools:** * Used **GitHub Issues** to document bugs.
@@ -104,7 +104,7 @@ Dive into the core of machine learning by implementing Linear Regression from sc
 * **Weight and Bias:** I learned how to initialize a weight ($m$) and a bias ($b$) and update them as the "brain" learns.
 * **Manual Gradient Descent:** I learned that a model "learns" by checking its error and using calculus to adjust its parameters until the error is at its lowest possible point.
 * **Feature Scaling:** I discovered that changing data to center around 0 (Standardization) is essential. It prevents the math from "breaking" and helps the model find the best fit much faster.
-* **Model Comparison:** By running my custom code alongside Scikit-Learn, I proved that my manual "scratch" logic produces the exact same mathematical results as professional tools.
+* **Model Comparison:** By running my custom code alongside Scikit-Learn, I proved that my manual "scratch" logic produces similar mathematical results as professional tools.
 * **Performance Metrics:** I learned how to use $R^2$ to measure success. In this dataset, I found that income explains roughly 47% of the house price variance.
 * **Visualization:** I learned how to plot a "Line of Best Fit" to visually confirm that the model has successfully captured the trend of the data.
 
@@ -395,22 +395,50 @@ Create a Tinkercad account and familiarize yourself with the application.
 ### Circuit Image
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/7b0b424e23e611b1bac14c24e5c48a646c320dfe/tinker1.png)
 
+---
+
 ### Circuit Connections
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/7b0b424e23e611b1bac14c24e5c48a646c320dfe/tinker2.png)
 
 ---
-## WORKING PRINCIPLE OF THE ULTRASONIC SENSOR
+## Working Principle of an Ultrasonic Sensor
 
-The HC-SR04 sensor operates on the principle of **Echolocation**, similar to how bats and dolphins navigate.
----
-## WORKING PRINCIPLE OF THE SERVO MOTOR
-Unlike standard DC motors that spin continuously, a servo motor is designed for **precise angular positioning**.
----
+The ultrasonic sensor (like the common HC-SR04) operates on the **Sonar (Sound Navigation and Ranging)** principle, using sound waves to measure the distance to an object. Here is the process in four points:
+
+1. **Triggering the Pulse:**
+   The sensor is activated when a microcontroller sends a short 10µs pulse to the **Trigger pin**. This tells the sensor to emit a series of eight ultrasonic "chirps" at a frequency of 40 kHz, which is beyond the range of human hearing.
+
+2. **Sound Wave Propagation:**
+   These sound waves travel through the air at the speed of sound (approximately 340 m/s). If there is an object in their path, the waves hit the surface and **reflect back** toward the sensor as an echo.
+
+3. **Echo Detection:**
+   The sensor's receiver (the "ear") detects the returning sound waves. Upon receiving the echo, the **Echo pin** on the sensor goes HIGH. It stays HIGH for the exact duration it took for the sound to travel to the object and back.
+
+4. **Distance Calculation:**
+   The microcontroller measures the time the Echo pin remained HIGH. Since the speed of sound is constant, the distance is calculated using the formula:
+   $$Distance = \frac{Time \times Speed\ of\ Sound}{2}$$
+   *(The result is divided by 2 because the sound traveled to the object and back).*
+
+## Working Principle of a Servo Motor
+
+The servo motor operates on a **Closed-Loop Feedback System**, ensuring high precision in angular positioning. Here is the process broken down into four points:
+
+1. **Pulse Width Modulation (PWM) Signal:**
+   The motor receives a control signal from a microcontroller. The **width of the pulse** (duration) determines the target angle of the output shaft. Usually, a 1.5ms pulse centers the motor at 90°, while 1ms and 2ms pulses represent 0° and 180° respectively.
+
+2. **Internal Feedback (Potentiometer):**
+   The output shaft is connected to an internal **potentiometer** (a variable resistor). As the motor rotates, the potentiometer's resistance changes, providing a voltage signal that tells the control circuit the exact current position of the shaft.
+
+3. **Error Detection (Comparator):**
+   An internal control circuit compares the target position (from the PWM signal) with the actual position (from the potentiometer). If there is a difference between the two, an **"error signal"** is generated.
+
+4. **Correction and Holding:**
+   The error signal triggers the internal DC motor to rotate in the direction that reduces the error. Once the shaft reaches the desired position, the error signal becomes zero, and the motor stops and holds that position firmly.
 
 ## WHAT I LEARNT
 
 * **Circuit Prototyping:** Gained hands-on experience in making digital connections and utilizing basic electronic components within the Tinkercad environment.
-* **Component Integration:** Successfully mastered the working principles and interfacing of the **Arduino Uno**, **Ultrasonic Sensor**, and **Servo Motor**.
+* **Component Integration:** Successfully learnt the working principles and interfacing of the **Arduino Uno**, **Ultrasonic Sensor**, and **Servo Motor**.
 * **Logic & Coding:** Developed an understanding of how to translate physical movements into code using Pulse Width Modulation and the speed of sound constants.
 
 ---
@@ -420,10 +448,8 @@ Unlike standard DC motors that spin continuously, a servo motor is designed for 
 ## Objective
 To interface a DC motor with an Arduino UNO using the **L298N H-Bridge motor driver** to achieve variable speed control through Pulse Width Modulation (PWM) and understand the logic required for motor activation and braking.
 
----
-
 ### Methodology
-The project follows a modular approach to bridge high-current hardware with low-power microprocessing:
+Followed a modular approach to bridge high-current hardware with low-power microprocessing:
 
 1.  **H-Bridge Logic Configuration:** Using two digital pins (`input1`, `input2`) to establish the direction of current. Setting one `HIGH` and the other `LOW` creates the potential difference needed for rotation.
 2.  **PWM Speed Regulation:** Utilizing the `enablePin` (Pin 9) on the Arduino. By using `analogWrite()`, the Arduino sends a square wave signal. The speed is determined by the **Duty Cycle**:
@@ -443,8 +469,6 @@ The project follows a modular approach to bridge high-current hardware with low-
 
 https://github.com/user-attachments/assets/e9c8f861-f775-4dec-9601-01f39c2930bd
 
----
-
 ### Learning Points
 * **The H-Bridge Mechanism:** Learned that the L298N uses four switches (transistors) in an "H" configuration. Closing two specific switches allows current to flow one way; closing the other two reverses it. **Crucially, closing all four would cause a short circuit, which the L298N logic prevents.**
 * **Current Sourcing Limits:** Learned that an Arduino cannot power a motor directly from its I/O pins due to current limitations (max ~40mA), necessitating the L298N driver which can handle up to 2A.
@@ -456,7 +480,7 @@ https://github.com/user-attachments/assets/e9c8f861-f775-4dec-9601-01f39c2930bd
 # Task 11: LED Toggle Using ESP32
 
 ## Objective
-To design and deploy a standalone web server using the ESP32 to control GPIO pins via a browser-based interface over a local Wi-Fi network.
+To design and deploy a web server using the ESP32 to control GPIO pins via a browser-based interface over a local Wi-Fi network.
 
 ### Methodology
 
@@ -630,6 +654,7 @@ In a standard quadcopter layout, two motors rotate clockwise (CW) and two rotate
 
 ### 2.2 Mechanical Coordination
 To maintain a specific path in the simulator, the pilot must coordinate these mixing behaviors. For example, a **Coordinated Turn** requires a simultaneous input of both **Roll** and **Yaw** in the same direction. This ensures the drone "carves" through the air rather than sliding laterally (drifting) while maintaining the desired heading.
+
 ---
 
 ## 3. Flying the Airblock Drone
@@ -640,14 +665,16 @@ To maintain a specific path in the simulator, the pilot must coordinate these mi
 * **Application:** The drone is operated via the **Makeblock App**, which supports both manual remote control and block-based graphical programming (similar to Scratch).
 * **Connectivity:** Bluetooth-enabled for real-time control and coding.
 
----
 
 ### 2. Propulsion System
 * **Motor Type:** **6 x Coreless DC Motors**. These provide the necessary RPM for a modular hexacopter while remaining lightweight.
 * **Propellers:** * Plastic blades housed within protective hexagonal frames.
     * Configuration includes both **Clockwise (CW)** and **Counter-Clockwise (CCW)** propellers to maintain flight stability.
     * **Safety:** The enclosed design makes the propellers safe for indoor use and beginner pilots.
+ 
+  
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/66a6c22755ba8fab45cee071e596e59554e9436a/airblock2.webp)
+
 ---
 
 ### 3. Physical Construction & Modular Design
@@ -662,7 +689,10 @@ The Airblock's modularity allows it to take several specialized shapes:
 * **Drone:** A standard hexacopter configuration for aerial flight.
 * **Hovercraft:** Utilizes the foam's buoyancy and motor thrust to glide over flat ground or water.
 * **Triangle/Spider:** Creative DIY configurations that demonstrate the versatility of the magnetized blocks for land-based movement or unique flight physics.
+
+---
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/9c1199c53326a942adf2ea37ac8bdbe76ecc7c41/airblock1.webp)
+
 ---
 
 ## 4. Battery & Power
