@@ -69,7 +69,6 @@ An **API (Application Programming Interface)** is like a digital waiter.
 * **Dynamic Fetching:** The app doesn't use a saved list; it talks to a live server to get the latest country data every time you search.
 * **Smart Search:** It uses a search button to trigger the request and pulls the exact text typed into the input field.
 * **Error Handling:** I added a `catch` block to show a helpful message if the country name is wrong or the box is left empty.
-* **Responsive Design:** The layout uses a clean card style that centers itself on the screen and works well on different devices.
 * **Live Data Display:** The app automatically shows the flag, capital, continent, population, and currency once the data is found.
 * **Number Formatting:** I used `toLocaleString()` to make large population numbers easy to read with commas.
 
@@ -82,6 +81,7 @@ An **API (Application Programming Interface)** is like a digital waiter.
 * **Error Messages:** I added a "catch" to show a helpful message if a country doesn't exist.
 
 ![Country Finder](https://github.com/vivek7768/marvel-level-0-images/blob/ca4005a98e94664c4442083566083397f549adc4/api.png)
+
 ---
 # Task 3: Working with GitHub
 
