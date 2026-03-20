@@ -125,6 +125,14 @@ Get familiar with the command line on Ubuntu by completing given tasks.
 ## **Objective**
 Dive into the core of machine learning by implementing Linear Regression from scratch using , and compare its performance with the scikit-learn implementation. Use the California Housing dataset to evaluate your model on real-world data.
 
+### Linear Regression
+* **Task:** Find the best straight line ($y = mx + b$) to predict values.
+* **Weight ($m$):** The "importance" given to the input feature.
+* **Bias ($b$):** The "offset" or baseline value.
+* **Learning:** The model uses **Gradient Descent** to minimize the **Mean Squared Error**.
+* **Scaling:** We normalize data so the model learns faster and stays stable.
+* **Success:** We use the **$R^2$ Score** to see how much of the data's "story" our line explains.
+
 ### **Learnings**
 * **The Basic Equation:** I learned that at its core, predicting a value is just a simple line equation: $y = mx + b$.
 * **Weight and Bias:** I learned how to initialize a weight ($m$) and a bias ($b$) and update them as the "brain" learns.
@@ -536,15 +544,11 @@ https://github.com/user-attachments/assets/e77327a1-e4dc-4bda-bc8a-cc7ec44b09a3
 ## Objective
 The primary goal of this project was to transition from temporary breadboard prototyping to permanent circuit assembly. Specifically:
 
----
-
 ## Learning Outcomes
 Upon completion of this project, the following competencies were achieved:
 * **Tool Proficiency:** Demonstrated correct use of the soldering iron, solder wire.
 * **Thermal Management:** Learned to balance heat application—long enough to melt solder into the joint, but quick enough to avoid heat-damaging the LED or lifting the copper pad.
 * **Visual Inspection:** Gained the ability to distinguish between a "Good Joint" (shiny, concave cone) and a "Fail" (cold joint or solder bridge).
-
----
 
 ## Key Learnings & Observations
 
@@ -554,6 +558,7 @@ Upon completion of this project, the following competencies were achieved:
 * **Mechanical Stability:** Bending the leads at a 45-degree angle on the bottom of the perf board is essential for keeping components flush against the board while flipping it over to solder.
 
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/3017f2183a74e5f7476d2392ffc69719284ee7ae/Solder.jpeg)
+
 ---
 
 # Task 13: Design a 555 Astable Multivibrator
@@ -561,7 +566,27 @@ Upon completion of this project, the following competencies were achieved:
 ## Objective
 To design and assemble a **555 IC Astable Multivibrator** on a breadboard that produces a square wave with a **60% duty cycle**, and to verify the resulting waveform's timing and shape using a **Digital Storage Oscilloscope (DSO)**.
 
----
+## 555 Astable Design Formulas
+
+To achieve a specific frequency and duty cycle, we use the following mathematical relationships:
+
+### 1. Timing Intervals
+* **Time High ($T_{on}$):** The time the LED/Output is ON.
+  $$T_{on} = 0.693 \times (R_A + R_B) \times C$$
+* **Time Low ($T_{off}$):** The time the LED/Output is OFF.
+  $$T_{off} = 0.693 \times R_B \times C$$
+
+### 2. Total Period and Frequency
+* **Total Period ($T$):** The time for one complete cycle.
+  $$T = T_{on} + T_{off} = 0.693 \times (R_A + 2R_B) \times C$$
+* **Frequency ($f$):** How many pulses per second (Hz).
+  $$f = \frac{1.44}{(R_A + 2R_B) \times C}$$
+
+### 3. Duty Cycle (%)
+The ratio of "ON" time to the total time. For a **60% duty cycle**:
+  $$\text{Duty Cycle} = \frac{T_{on}}{T} \times 100 = \frac{R_A + R_B}{R_A + 2R_B} \times 100$$
+  
+*Since charging uses (Ra + Rb) and discharging uses only (Rb), a standard 555 circuit will always have a duty cycle > 50%.*
 
 ## Outcomes
 * **Successful Hardware Build:** A functional pulse-generator circuit assembled on a breadboard.
@@ -687,12 +712,12 @@ To maintain a specific path in the simulator, the pilot must coordinate these mi
 
 ### Objective: To learn about and operate the Airblock Drone available in the lab.
 
-### 1. Operation & Control
+### Operation & Control
 * **Application:** The drone is operated via the **Makeblock App**, which supports both manual remote control and block-based graphical programming (similar to Scratch).
 * **Connectivity:** Bluetooth-enabled for real-time control and coding.
 
 
-### 2. Propulsion System
+### Propulsion System
 * **Motor Type:** **6 x Coreless DC Motors**. These provide the necessary RPM for a modular hexacopter while remaining lightweight.
 * **Propellers:** * Plastic blades housed within protective hexagonal frames.
     * Configuration includes both **Clockwise (CW)** and **Counter-Clockwise (CCW)** propellers to maintain flight stability.
@@ -701,9 +726,8 @@ To maintain a specific path in the simulator, the pilot must coordinate these mi
   
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/66a6c22755ba8fab45cee071e596e59554e9436a/airblock2.webp)
 
----
 
-### 3. Physical Construction & Modular Design
+### Physical Construction & Modular Design
 * **Material:** **EPP (Expanded Polypropylene) Foam**. This is a closed-cell foam known for being:
     * **Lightweight:** Crucial for flight efficiency.
     * **Flexible & Durable:** Absorbs impacts without breaking.
@@ -716,12 +740,9 @@ The Airblock's modularity allows it to take several specialized shapes:
 * **Hovercraft:** Utilizes the foam's buoyancy and motor thrust to glide over flat ground or water.
 * **Triangle/Spider:** Creative DIY configurations that demonstrate the versatility of the magnetized blocks for land-based movement or unique flight physics.
 
----
 ![](https://github.com/vivek7768/marvel-level-0-images/blob/9c1199c53326a942adf2ea37ac8bdbe76ecc7c41/airblock1.webp)
 
----
-
-## 4. Battery & Power
+## Battery & Power
 * **Type:** Lithium Polymer (**LiPo**) battery.
 * **Voltage:** 7.4V.
 * **Capacity:** Typically **700mAh**.
@@ -731,7 +752,7 @@ The Airblock's modularity allows it to take several specialized shapes:
 
 ---
 
-## 5. Onboard Sensors
+## Onboard Sensors
 * **Ultrasonic Sensor:** For altitude hold and detecting distance from the ground.
 * **Barometer:** Monitors air pressure to assist in height stabilization.
 * **6-axis Gyroscope:** Ensures orientation and balance across all modular forms.
