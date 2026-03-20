@@ -482,6 +482,19 @@ The servo motor operates on a **Closed-Loop Feedback System**, ensuring high pre
 ## Objective
 To interface a DC motor with an Arduino UNO using the **L298N H-Bridge motor driver** to achieve variable speed control through Pulse Width Modulation (PWM) and understand the logic required for motor activation and braking.
 
+
+### L298N Motor Driver Connections
+
+| L298N Motor Driver | Components |
+|--------------------|------------|
+| ENA                | ~10 of Arduino UNO |
+| IN1                | 8th digital pin |
+| IN2                | ~9 of Arduino UNO |
+| GND                | -ve of 9V power supply |
+| 12V                | +ve of 9V power supply |
+| Output 1           | One terminal of motor |
+| Output 2           | 2nd terminal of motor |
+
 ### Methodology
 Followed a modular approach to bridge high-current hardware with low-power microprocessing:
 
@@ -515,6 +528,13 @@ https://github.com/user-attachments/assets/e9c8f861-f775-4dec-9601-01f39c2930bd
 
 ## Objective
 To design and deploy a web server using the ESP32 to control GPIO pins via a browser-based interface over a local Wi-Fi network.
+
+### **Components used:**
+- ESP32 development board
+- LED
+- Resistor (220Ω)
+- Jumper wires
+- Breadboard
 
 ### Methodology
 
@@ -565,6 +585,18 @@ Upon completion of this project, the following competencies were achieved:
 
 ## Objective
 To design and assemble a **555 IC Astable Multivibrator** on a breadboard that produces a square wave with a **60% duty cycle**, and to verify the resulting waveform's timing and shape using a **Digital Storage Oscilloscope (DSO)**.
+
+## Components Used
+
+| Component | Value |
+|---|---|
+| 555 IC Timer | — |
+| Capacitor C1 | 0.001 µF |
+| Capacitor C2 (bypass) | 0.01 µF | 
+| Resistor R1 | 4.7 kΩ | 
+| Resistor R2 | 10 kΩ | 
+| Power Supply | 5V | 
+
 
 ## 555 Astable Design Formulas
 
